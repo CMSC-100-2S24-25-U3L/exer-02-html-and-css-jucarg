@@ -1,1 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maria Gracy E. de Guzman - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Quicksand', sans-serif;
+            background-color: #ffe6f2;
+            color: #ff4081;
+            text-align: justify;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0px 5px 15px rgba(255, 64, 129, 0.2);
+        }
+
+        .header-container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+            background-color: #ff4081;
+            border-radius: 15px 15px 0 0;
+            box-shadow: 0px 5px 15px rgba(255, 64, 129, 0.2);
+            overflow: hidden;
+        }
+
+        header {
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+            margin: 10px 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 5px 10px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+
+        .profile {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: left;
+            background: #ffccdd;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 2px 10px rgba(255, 64, 129, 0.2);
+            margin-top: 20px;
+        }
+
+        .profile img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 4px solid #ff4081;
+            box-shadow: 0px 4px 10px rgba(255, 64, 129, 0.3);
+            margin-right: 20px;
+        }
+
+        .profile-text {
+            max-width: 600px;
+        }
+
+        .section {
+            margin-top: 30px;
+            padding: 20px;
+            border-radius: 10px;
+            background: #ffccdd;
+            box-shadow: 0px 2px 10px rgba(255, 64, 129, 0.2);
+        }
+
+        .skills-projects {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .skills-projects .section {
+            width: 48%;
+        }
+
+        footer {
+            margin-top: 30px;
+            background: #ff4081;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header-container">
+        <header>
+            Maria Gracy E. de Guzman | Portfolio
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+    <div class="container">
+        <div class="profile">
+            <img src="Gracy_profile.jpg" alt="Maria Gracy E. de Guzman">
+            <div class="profile-text">
+                <h2>Maria Gracy E. de Guzman</h2>
+                <p>I enjoy crafting beautiful and functional designs! I love building
+                    interactive, visually appealing, and user-friendly web experiences.</p>
+                <p>Let's create something amazing together! ✨</p>
+            </div>
+        </div>
+
+        <div id="about" class="section">
+            <h2>About Me</h2>
+            <p>Growing up in Mandaluyong, I discovered my passion for programming through my fascination with
+                algorithmic thinking and software architecture. My science high school education strengthened my
+                analytical thinking, particularly in understanding computational concepts. Currently pursuing my
+                Computer Science degree, I've immersed myself in web development, with a focus on JavaScript frameworks
+                and backend development using Node.js. Currently pursuing my Computer Science degree, I've immersed
+                myself in web development while exploring various programming languages. When I'm not coding or
+                studying, you'll find me reading technical books, playing billiards, or keeping up with the latest tech
+                trends.</p>
+        </div>
+
+        <div class="skills-projects">
+            <div id="skills" class="section">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Web Development (HTML, CSS, JavaScript, R)</li>
+                    <li>UI/UX Design Principles</li>
+                    <li>Project Management & Team Collaboration</li>
+                    <li>Analytics & Data Visualization</li>
+                    <li>Problem-Solving & Debugging</li>
+                </ul>
+            </div>
+
+            <div id="projects" class="section">
+                <h2>Projects</h2>
+                <ul>
+                    <li><strong>Passenger Rush</strong> - A JavaFX two-player game in which players take on the roles of
+                        jeepney drivers and compete to deliver passengers to the Junction Unloading Area while dodging
+                        obstacles and using power-ups.
+                    </li>
+                    <li><strong>Diet Problem Solver</strong> - An R syntax project website using linear programming to
+                        find the cheapest nutritious diet while meeting dietary constraints.</li>
+                    <li><strong>Flight Passenger Management System</strong> - A C++ program that helps manage the
+                        passenger sin the flights of an airline</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2025 Maria Gracy E. de Guzman | Contact: medeguzman4@up.edu.ph</p>
+    </footer>
+</body>
+
+</html>
